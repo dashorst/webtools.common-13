@@ -1,5 +1,7 @@
 # REPRODUCER FOR eclipse/webtools.common#13
 
+This projects is a reproduction scenario for [this eclipse/webtools.common ticket](https://github.com/eclipse-wtp-common/webtools.common/issues/13).
+
 When trying to deploy the `warproject` into a servlet container the `with-fragments` jar file is excluded from the deployable, **UNLESS** you close the `with-fragments` project in the project explorer and let it be resolved through the local maven repository as an installed jar.
 
 ## Steps
